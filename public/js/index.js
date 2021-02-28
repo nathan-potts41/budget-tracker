@@ -121,7 +121,10 @@ function sendTransaction(isAdding) {
       "Content-Type": "application/json"
     }
   })
-  .then(response => {    
+  .then(response => {
+    if (document.querySelector('#add-btn')) {
+      alert('Thank you for wisely managing $' + amountEl.value)
+    } 
     return response.json();
   })
   .then(data => {

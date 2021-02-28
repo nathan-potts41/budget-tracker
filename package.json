@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "start:dev": "webpack serve",
-    "lite-server": "lite-server",
-    "webpack": "webpack --watch",
-    "build": "webpack"
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -26,10 +23,5 @@
     "express": "^4.17.1",
     "mongoose": "^5.11.18",
     "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "webpack": "^5.24.2",
-    "webpack-cli": "^4.5.0",
-    "webpack-dev-server": "^3.11.2"
   }
 }
